@@ -1,0 +1,27 @@
+<% include Partials/header.ejs%>
+<% include Partials/main_nav.ejs%>
+    <h1>Contact Me</h1>
+    <form action="mailto:johnathan.donnelly@ontariotechu.net" method="post" name="Form">
+        <p>
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name" size="40" placeholder="Your Full Name" required>
+        </p>
+        <p>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" size="40" placeholder="Your Email Address" required>
+        </p>
+        <p>
+            <label for="phone">Phone: </label><br>
+            <input type="tel" id="phone" name="phone" size="40" placeholder="Your Phone Number" required>
+        </p>
+        <p>
+            <label for="comments">Comments: </label><br>
+            <textarea id="comments" name="comments" cols="45" rows="10"></textarea>
+        </p>
+        <p>
+            <br>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </p>
+    </form>
+<% include Partials/footer.ejs%>

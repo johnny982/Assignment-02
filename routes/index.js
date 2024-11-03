@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET index page. */
+/* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
@@ -11,11 +11,11 @@ router.get('/about', function(req, res, next) {
 });
 /* GET projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
+  res.render('projects', { title: 'Projects' });
 });
 /* GET contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 
 module.exports = router;
