@@ -1,0 +1,31 @@
+<% include Partials/header.ejs%>
+<% include Partials/main_nav.ejs%>
+    <!-- Main Content -->
+    <div id="aboutintro">
+        <img src="Assets/images/image.jpg" alt="A picture of me" id="photo">
+        <div id="abouttext">
+            <h1><%= title %></h1>
+            <p>Hello, I'm Johnathan Donnelly, a second year Networking and IT Security student. I enjoy coding, math, and learning.</p>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <h2>A Short Introductory Video</h2>
+        <video controls poster="Assets/images/background.jpg" preload="auto" loop muted id="myvideo">
+            <source src="Assets/videos/video.mp4" type="video/mp4">
+        </video>
+        <br>
+        <button onclick="VideoControls()">Play/Pause</button>
+        <script>
+            var button=document.getElementById("myvideo");
+            function VideoControls()
+            {
+                if(button.paused)
+                    button.play();
+                else
+                    button.pause();
+            }
+        </script>
+    </div>
+<% include Partials/footer2.ejs%>

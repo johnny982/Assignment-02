@@ -1,0 +1,19 @@
+video{
+    max-width: 30%;
+}
+
+#aboutintro{
+    display: flex;  /* Turns into flex container (items now flex items) */
+    align-items: center;    /* Vertically centers */
+    
+}
+
+#aboutintro img{    /* Targets any images within #aboutintro */
+    max-width: 10%;
+    height: auto;
+    margin-right: 20px;
+}
+
+#abouttext{
+    flex: 1;    /* Takes up remaining horizontal space */
+}

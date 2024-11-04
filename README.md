@@ -2,7 +2,13 @@
 
 ## Versions
 
-* **0.1.0**
+* **0.3.0**
+    * Added about page
+    * Added pictures and video
+    * Edited css to adjust pictures and video
+    * Added specific footer partial for about page
+
+* **[0.1.0](https://github.com/johnny982/Assignment-02/commit/6201652067866aebc2ae2c5cf6adb24d55740f9e)**
     * Hosted on live server
     * Added home, contact, and projects page
 
