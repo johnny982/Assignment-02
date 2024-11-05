@@ -17,3 +17,8 @@ video{
 #abouttext{
     flex: 1;    /* Takes up remaining horizontal space */
 }
+
+#wrapper{
+    margin: auto;
+    max-width: 99%;
+}

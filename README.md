@@ -2,7 +2,10 @@
 
 ## Versions
 
-* **1.0.0**
+* **1.0.1**
+    * Adjusted maximum width
+
+* **[1.0.0](https://github.com/johnny982/Assignment-02/commit/7f0b6dfd785471d7848511d1d9264716c21d80ea)**
     * Full Release
     * Replaced projects links with buttons
     * Updated video button
