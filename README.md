@@ -2,7 +2,13 @@
 
 ## Versions
 
-* **0.3.0**
+* **1.0.0**
+    * Full Release
+    * Replaced projects links with buttons
+    * Updated video button
+    * **[Full Version History](https://github.com/johnny982/Assignment-02/commits/main/)**
+
+* **[0.3.0](https://github.com/johnny982/Assignment-02/commit/cc1822ba69b32b2e2d7c2595dd19de39490d45f4)**
     * Added about page
     * Added pictures and video
     * Edited css to adjust pictures and video
@@ -20,3 +26,4 @@
 
 ## Credits
 * [Dot Symbol – Bullet Point in HTML Unicode](https://www.freecodecamp.org/news/dot-symbol-bullet-point-in-html-unicode/)
+* [How do I create an HTML button that acts like a link?](https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link)
